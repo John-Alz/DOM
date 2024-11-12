@@ -124,7 +124,6 @@
         minmax(200px, 1fr)
     );
     gap: 10px;
-    width: 80%;
 }
 
 .right {
@@ -255,6 +254,14 @@ button:hover {
     .right,
     .left {
         width: 100%;
+    }
+    
+  }
+
+  @media screen and (max-width: 600px) {
+    h2 {
+        font-size: 36px;
+        
     }
     
   }
