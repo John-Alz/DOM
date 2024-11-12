@@ -266,7 +266,8 @@ button:hover {
         font-size: 25px;
     }
 
-    button {
+    button, 
+    .btnColor {
         width: 100%;
     }
 
