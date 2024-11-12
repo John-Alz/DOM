@@ -275,7 +275,7 @@ button:hover {
    }
    #containerBtns {
     overflow-y: scroll;
-    scrollbar-color: #6b9080 transparent;
+    scrollbar-color: transparent transparent;
     scrollbar-width: thin;
 }
 
