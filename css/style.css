@@ -119,8 +119,12 @@
 
 #containerBtns {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(200px, 1fr)
+    );
     gap: 10px;
+    width: 80%;
 }
 
 .right {
@@ -154,7 +158,8 @@ button {
     width: 220px;
     transition: .4s;
     cursor: pointer;
-
+    display: flex;
+    justify-content: center;
 }
 
 
