@@ -266,6 +266,10 @@ button:hover {
         font-size: 25px;
     }
 
+    button {
+        width: 100%;
+    }
+
     #Figura {
         width: 100%;
    }
