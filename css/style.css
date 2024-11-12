@@ -274,7 +274,10 @@ button:hover {
     #Figura {
         width: 100px;
         height: 100px;
-   
    }
+   #containerBtns {
+    overflow: scroll;
+}
+
     
   }
