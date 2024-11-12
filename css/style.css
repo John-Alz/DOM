@@ -115,6 +115,7 @@
 .left {
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 #containerBtns {
@@ -128,7 +129,7 @@
 
 .right {
     position: relative;
-    height: 87vh;
+    height: 100vh;
 }
 
 h2 {
