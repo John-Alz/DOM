@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="cont-general"> 
+
+        <div id="sideBar" class="">
+            <div class="contentBtn">
+                <p>Menu</p>
+                <button id="btnSideBarX"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="cotainerOptions">
+                <a href="#">Inicio</a>
+                <a href="#">Productos</a>
+                <a href="#">Servicios</a>
+                <a href="#">Contactos</a>
+            </div>
+            
+        </div>
+
+        <div id="sideBarTop" class="">
+            <div class="contentBtnTop">
+                <button id="btnSideBarTopX"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="contentVideo">
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/1xvZg0V59_Y?si=pdA3WiaLxoGYf7CX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+        </div>
+
+        <div class="left"> 
+            <h2>INTERACCIONES</h2>
+            <div id="containerBtns">
+                <button id="btnSideBar">sideBar</button>
+            <button id="btnSideBarTop">sideBarTop</button>
+            <button id="btnCirculo">CIRCULO</button>
+            <button id="btnRombo">ROMBO</button>
+                <input class="btnColor" id="colorPicker" type="color">
+            <button id="btnImg">FONDO IMAGEN</button>
+            <button id="btnTop">TOP</button>
+            <button id="btnLeft">LEFT</button>
+            <button id="btnBottom">BOTTOM</button>
+            <button id="btnRight">RIGHT</button>
+            <button id="btnDiagonal">DIAGONAL</button>
+            <button id="btnAnimation">ANIMATION</button>
+            <button id="btnGradient">FONDO DEGRADADO</button>
+            <button id="btnEstrella">ESTRELLA</button>
+            </div>
+        </div>
+
+        <div class="right"> 
+            <h2 id="Titulo">FIGURA</h2>
+
+            <div id="Figura"> </div>
+            
+        </div>
+
+
+
+    </section>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
